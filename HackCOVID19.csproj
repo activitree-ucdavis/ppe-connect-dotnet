@@ -8,5 +8,12 @@
     <PackageReference Include="MongoDB.Driver" Version="2.10.2" />
   </ItemGroup>
 
-
+  <ItemGroup>
+    <None Update="app.yaml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Update="Dockerfile">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
 </Project>
