@@ -33,6 +33,7 @@ namespace HackCOVID19
             services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
 
             services.AddSingleton<ProductService>();
+            services.AddSingleton<SupplierService>();
 
             services.AddControllers();
         }

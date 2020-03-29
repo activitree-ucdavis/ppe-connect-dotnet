@@ -4,7 +4,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace HackCOVID19.Models
 {
-    public class Producer
+    public class Supplier
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
