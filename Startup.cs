@@ -36,6 +36,7 @@ namespace HackCOVID19
 
             services.AddSingleton<ProductService>();
             services.AddSingleton<SupplierService>();
+            services.AddSingleton<HealthCareProviderService>();
 
             services.AddControllers();
         }

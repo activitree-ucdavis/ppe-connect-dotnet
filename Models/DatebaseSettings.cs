@@ -4,6 +4,7 @@ namespace HackCOVID19.Models
     {
         public string ProductsCollectionName { get; set; }
         public string SuppliersCollectionName { get; set; }
+        public string HealthCareProvidersCollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
@@ -12,6 +13,7 @@ namespace HackCOVID19.Models
     {
         string ProductsCollectionName { get; set; }
         string SuppliersCollectionName { get; set; }
+        string HealthCareProvidersCollectionName { get; set; }
         string ConnectionString { get; set; }
         string DatabaseName { get; set; }
     }
